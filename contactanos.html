@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Brazil</title>
+</head>
+
+<body>
+
+    <header>
+        <h1> Brazil</h1>
+        <nav>
+            <img src="imagenes/logoBrasil.png" alt="logo" />
+            <ul>
+                <li><a href="index.html"> Bienvenidos</a></li>
+                <li><a href="excursiones.html">Excursiones</a></li>
+                <li><a href="parquestematicos.html">Paquetes Turistico</a></li>
+                <li><a class="active" href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+        <img src="imagenes/headHome.jpg" alt="San Pablo" />
+
+
+    </header>
+
+    <main>
+
+        <h2 id="contactanos">Contactanos</h2>
+        <form method="POST" action="gracias.html">
+            <div id="Nombrecompleto">
+                <input required="required" placeholder="nombre" type="text" id="nombre" name="nombre" />
+                <input required="required" placeholder="apellido" type="text" id="apellido" name="apellido" />
+            </div>
+
+            <input placeholder="email" type="email" id="email" name="email" />
+            <div>
+                <input required="required" placeholder="tel" type="tel" id="tel" name="tel" />
+                <select name="pais" id="pais">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Mexico">Mexico</option>
+                </select>
+
+            </div>
+            <textarea placeholder="Escribi tu mensaje..." name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <input id="submit" value="enviar" type="submit" />
+
+        </form>
+        <section>
+            <div>
+                <iframe id="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197584455998!2d-46.65867588515054!3d-23.561346184682858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e7340a3a96e2b2b!2sCentral%20de%20Informa%C3%A7%C3%A3o%20Tur%C3%ADstica%20-%20CIT%20Paulista!5e0!3m2!1ses!2sar!4v1625500613654!5m2!1ses!2sar"
+                    loading="lazy"></iframe>
+
+                <div class="video">
+                    <video id="video" controls src="videos/sanpablo.mp4"> </video>
+                    <video id="video-02" controls src="videos/edificaciones.mp4"> </video>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+    <footer>
+
+        <div id="fotter">
+            <img id="logofooter" src="imagenes/logoBrasil.png" alt="logo" />
+            <h2>Brazil</h2>
+        </div>
+
+        <figure>
+            <img src="imagenes/igLogo.svg" alt="instagram" />
+            <img src="imagenes/faceLogo.svg" alt="facebook" />
+            <img src="imagenes/twitterLogo.svg" alt="twitter" />
+        </figure>
+
+        <ul>
+            <li><a href="index.html">BIENVENIDOS</a></li>
+            <li><a href="excursiones.html">EXCURSIONES</a></li>
+            <li><a href="parquestematicos.html">PARQUES TEMATICOS</a></li>
+            <li><a href="contactanos.html">CONTACTANOS</a></li>
+        </ul>
+
+
+
+        <p>TODOS LOS DERECHOS RESERVADOS. BRASIL © 2021</p>
+
+
+        <div id="datos">
+            <img id="fotopersonal" src="imagenes/fotoPersonal.jpg" alt="fotopersonal" />
+            <div id="parrafos">
+                <p>Rocio Suarez</p>
+                <p>Maquetado</p>
+                <p>Mabel Garcia</p>
+                <p>Es el TP2 del primer cuatrimestre de la Escuela Da Vinci del 2021</p>
+
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

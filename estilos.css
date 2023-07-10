@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: none;
+}
+
+header>img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(210, 226, 226);
+    background: linear-gradient(90deg, rgba(210, 226, 226, 1) 0%, rgba(53, 145, 180, 1) 100%);
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+nav>img {
+    width: 4rem;
+    height: 4rem;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    transition: 500ms all;
+}
+
+header nav li {
+    padding: 0 1rem;
+}
+
+h2 {
+    color: #7fc141;
+    font-size: 30pt;
+    font-family: 'VisiaPro';
+    font-weight: normal;
+    font-style: oblique;
+    width: 30rem;
+    margin: auto;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'VisiaPro';
+    src: url('font/VisiaPro\ Light.ttf');
+}
+
+#primerparrafo>p {
+    text-align: center;
+    font-family: 'VisiaPro';
+    color: #30322e;
+    width: 60rem;
+    margin: auto;
+    font-size: 16pt;
+}
+
+.iconosmain figure {
+    width: 20rem;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.iconosmain {
+    display: flex;
+    justify-content: center;
+}
+
+.iconosmain figure img {
+    width: 10rem;
+}
+
+figure p {
+    text-align: center;
+}
+
+figure h3 {
+    text-align: center;
+    color: #7fc141;
+    font-family: 'VisiaPro';
+    font-size: 20pt;
+}
+
+#cultura {
+    background-image: url('imagenes/vivi.png');
+    height: 30rem;
+}
+
+#cultura h2 {
+    color: #7fc141;
+    font-size: 30pt;
+    font-family: 'VisiaPro';
+    font-weight: bold;
+    width: 30rem;
+    margin: auto;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#cultura p {
+    text-align: center;
+    font-family: 'VisiaPro';
+    color: #fff;
+    width: 60rem;
+    margin: auto;
+    font-size: 16pt;
+    padding-top: 10rem;
+}
+
+#cultura button {
+    background-color: #7fc141;
+    border-radius: 50rem;
+    color: #fff;
+    display: block;
+    padding: .3rem;
+    font-size: 14pt;
+    margin: 2rem auto;
+}
+
+#guiacultural {
+    background-color: #333333;
+}
+
+#guiacultural>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#guiacultural figure {
+    width: 20rem;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#guiacultural h2 {
+    width: 100%;
+    color: #000;
+    font-style: normal;
+    font-size: 16pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+#guiacultural img {
+    width: 100%;
+}
+
+#guiacultural p {
+    text-align: left;
+}
+
+#colabore {
+    width: 10rem;
+    padding-top: 4rem;
+}
+
+#favela {
+    width: 50rem;
+}
+
+#colaboracion {
+    text-align: center;
+}
+
+#colaboracion button {
+    background-color: #7fc141;
+    border-radius: 50rem;
+    color: #fff;
+    display: block;
+    padding: .3rem;
+    font-size: 14pt;
+    margin: 2rem auto;
+}
+
+footer figure img {
+    width: 4rem;
+    height: 4rem;
+    filter: grayscale(1);
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(53, 145, 180, 1);
+    padding-top: 2rem;
+}
+
+#fotter {
+    display: flex;
+    justify-content: center;
+}
+
+#fotter h2 {
+    width: auto;
+    margin: 0;
+    color: #fff;
+    font-style: normal;
+    font-weight: 900;
+}
+
+footer ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    color: #fff;
+    text-decoration: none;
+    padding-top: 3rem;
+}
+
+footer ul {
+    padding-top: 2rem;
+}
+
+footer figure {
+    padding-top: 2rem;
+}
+
+#logofooter {
+    width: 3rem;
+    height: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    width: 50%;
+    padding: 1rem;
+}
+
+#email {
+    width: 100%;
+}
+
+#mensaje {
+    width: 100%;
+    display: block;
+}
+
+#submit {
+    background-color: #7fc141;
+    border-radius: 50rem;
+    color: #fff;
+    display: block;
+    padding: .3rem;
+    font-size: 14pt;
+    margin: 2rem auto;
+}
+
+#pais {
+    width: 50%;
+    padding: .5rem;
+}
+
+#contactanos {
+    padding-bottom: 2rem;
+}
+
+#gracias {
+    padding: 4rem;
+}
+
+#datos {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: steelblue;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 50rem;
+    margin: 2rem auto;
+}
+
+#fotopersonal {
+    width: 10rem;
+}
+
+#parrafos p {
+    width: 20rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+#promociones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#promociones figure {
+    width: 20rem;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#promociones h2 {
+    width: 100%;
+    color: #000;
+    font-style: normal;
+    font-size: 16pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+#promociones img {
+    width: 100%;
+}
+
+#promociones p {
+    text-align: left;
+}
+
+.numero {
+    color: #7fc141;
+    font-size: 30pt;
+    font-family: 'VisiaPro';
+    font-weight: bold;
+    width: 30rem;
+    margin: auto;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#promociones button {
+    background-color: #7fc141;
+    border-radius: 50rem;
+    color: #fff;
+    display: block;
+    padding: .3rem;
+    font-size: 14pt;
+    margin: 2rem auto;
+}
+
+#excursiones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#excursiones figure {
+    width: 20rem;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#excursiones h2 {
+    width: 100%;
+    color: #000;
+    font-style: normal;
+    font-size: 16pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+#excursiones img {
+    width: 100%;
+}
+
+#excursiones p {
+    text-align: left;
+}
+
+#mapa {
+    width: 80%;
+    height: 30rem;
+    display: block;
+    margin: auto;
+    padding-bottom: 3rem;
+    border: transparent 0px;
+}
+
+.segundoNav ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+.segundoNav a {
+    font-size: 18pt;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+.segundoNav li:first-of-type a {
+    color: #ECD662;
+}
+
+.segundoNav li:nth-of-type(2) a {
+    color: #5D8233;
+}
+
+.segundoNav li:nth-of-type(3) a {
+    color: #284E78;
+}
+
+.segundoNav li:last-of-type a {
+    color: #3E215D;
+}
+
+.segundoNav {
+    justify-content: center;
+}
+
+.active {
+    color: #5D8233;
+}
+
+#primerparrafo>p {
+    padding-bottom: 3rem;
+}
+
+header nav:first-of-type a:hover {
+    color: #5D8233;
+}
+
+header nav:first-of-type a:active {
+    color: #ECD662;
+}
+
+.vuelos {
+    display: flex;
+}
+
+.habitaciones {
+    display: flex;
+}
+
+#form input {
+    width: 100%;
+}
+
+.vuelos label {
+    width: 50%
+}
+
+#video {
+    width: 34%;
+    margin: 1rem;
+}
+
+#video-02 {
+    width: 34%;
+    margin: 1rem;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}

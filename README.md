@@ -9,10 +9,11 @@ link : https://stunning-fenglisu-0d3bfc.netlify.app
 Herencia de Estilos:
 
 Los estilos aplicados a un elemento se heredan por defecto por sus elementos secundarios. Por ejemplo, si aplicas un estilo de fuente o color al elemento <body>, esos estilos se heredarán por todos los elementos dentro del <body> a menos que se anulen explícitamente.
-Reutilización de Estilos:
 </li>
 
 <li> 
+Reutilización de Estilos:
+
 Al definir estilos en reglas más generales y aplicar estilos específicos a elementos particulares, se fomenta la reutilización de estilos. Esto significa que puedes aplicar fácilmente estilos consistentes a través de diferentes partes de tu sitio o aplicación.
 Prioridad y Especificidad:
 </li>
